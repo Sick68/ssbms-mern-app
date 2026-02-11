@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import api from './api/axios.jsx'
-import "./app.css";
 import RegisterLogin from './Pages/RegistUser.jsx'
 import ProviderDasboard from './Pages/ProviderDasboard.jsx'
 import { useSelector } from 'react-redux'
