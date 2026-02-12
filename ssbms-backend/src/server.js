@@ -26,6 +26,12 @@ app.use("/api/service", service_route);
 //middleware to set booking router
 app.use("/api/booking", booking_route);
 
+// CORS configuration
+app.use(cors({
+  origin: "https://ssbms-mern-app-trrd.vercel.app/,http://localhost:5173", // replace with your actual Vercel frontend URL
+  credentials: true
+}));
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT,()=>{
