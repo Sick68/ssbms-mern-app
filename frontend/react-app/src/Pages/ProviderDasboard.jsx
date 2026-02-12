@@ -140,7 +140,7 @@ const fetchServices = async () => {
     </div>
     </div>
     <div className='bg-gray-200 rounded-2xl '>
-    <div className='flex flex-col md-flex-row  p-5 mb-5 gap-6'>
+    <div className='flex  flex-row  p-5 mb-5 gap-6'>
     {/* Booking Request */}
     <div className='w-full lg:w-1/2 max-h-72  overflow-y-auto pr-1 bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-5 border border-gray-100'>
     <h2 className='font-semibold text-xl bold mb-3'>Booking Requests</h2>
